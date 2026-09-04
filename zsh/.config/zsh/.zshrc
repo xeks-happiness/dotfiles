@@ -33,7 +33,9 @@ autoload -Uz add-zsh-hook \
 compinit; promptinit
 
 # Initialize shell integration of tv
-eval "$(tv init zsh)"
+if command -v tv &> /dev/null; then
+	eval "$(tv init zsh)"
+fi
 
 # Source plugin manager based on: https://github.com/mattmc3/zsh_unplugged
 source "${ZDOTDIR:-${XDG_CONFIG_HOME:-$HOME/.config/}/zsh/}/plugin-manager.zsh"
