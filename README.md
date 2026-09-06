@@ -4,8 +4,6 @@ Noting Special to see here
 
 My dotfiles of my android phone because I love to install custom roms on my phone and it's takes time to copy paste configs for tools to make tests
 
-This repo is hosted on [codeberg](https://codeberg.org/xeks4237/dotfiles) with read and write mirror of it on [github](https://github.com/xeks4237/dotfiles)
-
 # How to add/install dotfiles
 
 ⚠️ WARNING: If you want to try my dotfies please recheck everthing begore doing anything, Commands belove can overwrite existing files
@@ -13,7 +11,7 @@ This repo is hosted on [codeberg](https://codeberg.org/xeks4237/dotfiles) with r
 Clone dotfiles using git:
 
 ```sh
-git clone https://codeberg.org/xeks4237/dotfiles.git ~/.dotfiles/
+git clone https://github.com/xeks-happiness/dotfiles.git ~/.dotfiles/
 ```
 
 Stow everything correctly, expect files for termux itself:
